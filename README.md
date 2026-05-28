@@ -103,7 +103,7 @@ Packet-level visibility is essential for incident detection, traffic analysis, a
 
 # 7. TCP Flag Analysis in Wireshark
 
-![TCP Flags]( )
+![TCP Flags](Screenshots/Capture8.PNG)
 
 A detailed packet inspection was performed within Wireshark focusing on TCP flags generated during the Nmap scan.
 
