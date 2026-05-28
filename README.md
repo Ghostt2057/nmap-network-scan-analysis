@@ -86,6 +86,19 @@ During the scan, multiple TCP connection attempts were generated toward the targ
 From a defensive cybersecurity perspective, network scans are considered reconnaissance activity and may represent an early stage of an attack lifecycle.
 
 
+# 6. TCP Traffic Analysis During Nmap Scan
+
+![Wireshark TCP Scan]( )
+
+During the Nmap scan, Wireshark was used to capture and analyze the TCP traffic generated between Kali Linux and the Windows target machine.
+
+The packet capture revealed multiple TCP connection attempts directed toward different ports on the target system, behavior that is characteristic of network reconnaissance activity.
+
+Traffic analysis allowed observation of how Nmap interacts with remote systems by sending TCP packets to identify accessible services and determine port states.
+
+From a defensive cybersecurity perspective, this type of activity can be monitored by SOC analysts to detect reconnaissance attempts, suspicious scanning behavior, and potential early stages of an attack lifecycle.
+
+Packet-level visibility is essential for incident detection, traffic analysis, and network monitoring operations.
 
 
 
