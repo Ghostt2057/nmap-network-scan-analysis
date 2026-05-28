@@ -58,5 +58,16 @@ Successful Echo Reply responses confirmed that the lab environment was correctly
 This step is important in cybersecurity labs because it validates network reachability before performing scanning, monitoring, or offensive security activities.
 
 
+# 4. ICMP Traffic Capture Using Wireshark
+
+![Wireshark ICMP]( )
+
+Wireshark was used to capture and analyze ICMP traffic generated during the connectivity verification process.
+
+The packet capture displayed Echo Request and Echo Reply packets associated with the `ping` command executed from Kali Linux toward the Windows target machine.
+
+This analysis demonstrates how network communication can be monitored in real time and how packet analysis tools are used by SOC analysts and cybersecurity professionals to investigate traffic behavior, detect anomalies, and monitor suspicious activity inside enterprise environments.
+
+Packet analysis is a fundamental skill in defensive cybersecurity operations because it provides visibility into communication patterns and network-level activity.
 
 
