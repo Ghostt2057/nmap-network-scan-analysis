@@ -47,7 +47,7 @@ Having both systems inside the same isolated virtual network allowed direct comm
 
 # 3. Connectivity Verification Using ICMP
 
-![Ping Test]( )
+![Ping Test](Screenshots/Capture3.PNG)
 
 Connectivity between Kali Linux and the Windows target machine was verified using the `ping` command.
 
